@@ -1,6 +1,6 @@
 ---
 cover: ../.gitbook/assets/NEXperience Pitch Deck (4) (1).png
-coverY: 54.50387596899225
+coverY: 125.05980066445183
 ---
 
 # 📪 NEXperience SDK
