@@ -1,6 +1,6 @@
 ---
 cover: ../.gitbook/assets/NEXperience Pitch Deck (4) (1).png
-coverY: 53.89147286821705
+coverY: 138.87929125138427
 ---
 
 # 💡 What we do
