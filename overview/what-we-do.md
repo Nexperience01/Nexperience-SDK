@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/NEXperience Pitch Deck (4) (1).png
+coverY: 53.89147286821705
+---
+
 # 💡 What we do
 
 ## Video overview
