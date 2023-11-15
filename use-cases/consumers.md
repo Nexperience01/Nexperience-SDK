@@ -1,6 +1,6 @@
 ---
 cover: ../.gitbook/assets/NEXperience Pitch Deck (4) (1).png
-coverY: 51.44186046511628
+coverY: 138.03322259136212
 ---
 
 # 🦹 Consumers

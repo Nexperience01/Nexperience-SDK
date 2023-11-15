@@ -1,6 +1,6 @@
 ---
 cover: ../.gitbook/assets/NEXperience Pitch Deck (4) (1).png
-coverY: 50.21705426356589
+coverY: 130.39424141749723
 ---
 
 # 🖥 DApp Owners
