@@ -18,15 +18,6 @@ At the heart of NEXperience lies our decentralized, AI-powered ad marketplace. B
 
 Embark on this transformative journey with NEXperience and become a trailblazer in the next generation of advertising. Join us as we revolutionize the advertising landscape, crafting a brighter, more interconnected, and efficient future for advertisers, DApp owners, and users alike. NEXperience is where the future of advertising comes to life – don't miss out on this extraordinary opportunity to be part of the change.
 
-## Quick links
-
-{% content-ref url="overview/what-we-do.md" %}
-[what-we-do.md](overview/what-we-do.md)
-{% endcontent-ref %}
-
-{% content-ref url="overview/our-features.md" %}
-[our-features.md](overview/our-features.md)
-{% endcontent-ref %}
 
 
 
