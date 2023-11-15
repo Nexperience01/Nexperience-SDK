@@ -1,0 +1,46 @@
+#pragma version 5
+txn ApplicationID
+int 0
+==
+bnz main_l6
+txn OnCompletion
+int NoOp
+==
+bnz main_l3
+err
+main_l3:
+byte "dapp_owner_"
+txn Sender
+concat
+app_global_get
+byte ""
+==
+bnz main_l5
+byte "slot_counter"
+byte "slot_counter"
+app_global_get
+int 1
++
+app_global_put
+byte "ad_slot_"
+txn Sender
+concat
+byte "_"
+concat
+byte "slot_counter"
+app_global_get
+itob
+concat
+byte "active"
+app_global_put
+int 1
+return
+main_l5:
+int 0
+return
+main_l6:
+byte "slot_counter"
+int 1
+app_global_put
+int 1
+return

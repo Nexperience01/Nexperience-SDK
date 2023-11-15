@@ -1,0 +1,104 @@
+#pragma version 5
+txn ApplicationID
+int 0
+==
+bnz main_l14
+txn OnCompletion
+int NoOp
+==
+bnz main_l11
+txn OnCompletion
+int NoOp
+==
+bnz main_l10
+txn OnCompletion
+int NoOp
+==
+bnz main_l5
+err
+main_l5:
+byte "ad_auction_"
+txn Sender
+concat
+byte "_"
+concat
+byte "current_auction"
+app_global_get
+itob
+concat
+app_global_get
+byte "active"
+!=
+bnz main_l9
+byte "balance_"
+txn Sender
+concat
+app_global_get
+txn Amount
+<
+bnz main_l8
+byte "highest_bid_"
+byte "current_auction"
+app_global_get
+itob
+concat
+txn Amount
+app_global_put
+byte "highest_bidder_"
+byte "current_auction"
+app_global_get
+itob
+concat
+txn Sender
+app_global_put
+int 1
+return
+main_l8:
+int 0
+return
+main_l9:
+int 0
+return
+main_l10:
+byte "current_auction"
+byte "auction_counter"
+app_global_get
+app_global_put
+int 1
+return
+main_l11:
+byte "dapp_owner_"
+txn Sender
+concat
+app_global_get
+byte ""
+==
+bnz main_l13
+byte "auction_counter"
+byte "auction_counter"
+app_global_get
+int 1
++
+app_global_put
+byte "ad_auction_"
+txn Sender
+concat
+byte "_"
+concat
+byte "auction_counter"
+app_global_get
+itob
+concat
+byte "active"
+app_global_put
+int 1
+return
+main_l13:
+int 0
+return
+main_l14:
+byte "auction_counter"
+int 1
+app_global_put
+int 1
+return

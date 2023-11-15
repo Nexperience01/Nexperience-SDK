@@ -1,0 +1,31 @@
+#pragma version 5
+txn ApplicationID
+int 0
+==
+bnz main_l4
+txn OnCompletion
+int NoOp
+==
+bnz main_l3
+err
+main_l3:
+byte "ad_slot_auction"
+app_global_get
+int 1
+==
+txn Amount
+int 0
+>
+&&
+assert
+byte "balance"
+txn Amount
+app_global_put
+int 1
+return
+main_l4:
+byte "ad_slot_auction"
+int 0
+app_global_put
+int 1
+return

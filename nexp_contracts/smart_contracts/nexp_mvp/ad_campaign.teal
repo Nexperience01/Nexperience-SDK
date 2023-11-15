@@ -1,0 +1,122 @@
+#pragma version 2
+txn ApplicationID
+int 0
+==
+bnz main_l12
+int 0
+txn ApplicationID
+&
+int 5
+<=
+bnz main_l11
+txn ApplicationID
+int 6
+==
+bnz main_l10
+txn ApplicationID
+int 7
+==
+bnz main_l9
+txn ApplicationID
+int 8
+==
+bnz main_l8
+txn ApplicationID
+int 9
+==
+bnz main_l7
+err
+main_l7:
+int 0
+byte "admin"
+int 0
+int 0
+byte "creator"
+app_local_get
+app_local_get
+app_local_put
+int 0
+byte "campaign_owner"
+txn Sender
+app_local_put
+int 1
+return
+main_l8:
+int 0
+byte "admin"
+int 0
+int 0
+byte "creator"
+app_local_get
+app_local_get
+app_local_put
+int 0
+byte "campaign_owner"
+txn Sender
+app_local_put
+int 1
+return
+main_l9:
+int 0
+byte "admin"
+int 0
+int 0
+byte "creator"
+app_local_get
+app_local_get
+app_local_put
+int 0
+byte "campaign_owner"
+txn Sender
+app_local_put
+int 1
+return
+main_l10:
+int 0
+byte "admin"
+int 0
+int 0
+byte "creator"
+app_local_get
+app_local_get
+app_local_put
+int 0
+byte "campaign_owner"
+txn Sender
+app_local_put
+int 0
+byte "campaign_id"
+int 0
+int 0
+byte "campaign_counter"
+app_local_get
+app_local_get
+app_local_put
+int 0
+byte "campaign_counter"
+int 0
+byte "campaign_counter"
+app_local_get
+int 1
++
+app_local_put
+int 1
+return
+main_l11:
+int 0
+byte "creator"
+int 0
+int 0
+byte "admin"
+app_local_get
+app_local_get
+app_local_put
+int 1
+return
+main_l12:
+int 0
+byte "campaign_counter"
+int 1
+app_local_put
+int 1
+return
