@@ -6,17 +6,17 @@
 
 **At NEXperience:** Solution Architect&#x20;
 
-**LinkedIn:**
+**LinkedIn:** [**https://www.linkedin.com/in/puneetsingh2404/**](https://www.linkedin.com/in/puneetsingh2404/)
 
-**Email: puneetsinghsigns@gmail.com**
+**Email:** puneetsinghsigns@gmail.com
 
 ## <mark style="color:purple;">Mokshita Vashisht</mark>
 
 **At NEXperience:** Product Owner
 
-**LinkedIn:**
+**LinkedIn:** [**https://www.linkedin.com/in/mokshita-vashisht-220ba739/**](https://www.linkedin.com/in/mokshita-vashisht-220ba739/)
 
-**Email: mokshita.vashisht@gmail.com**
+**Email:** mokshita.vashisht@gmail.com
 
 ## <mark style="color:purple;">Sarthak Jain</mark>
 
