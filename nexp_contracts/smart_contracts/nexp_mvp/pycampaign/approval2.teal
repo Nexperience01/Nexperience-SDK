@@ -1,0 +1,85 @@
+#pragma version 5
+txn ApplicationID
+int 0
+==
+bnz main_l10
+txna ApplicationArgs 0
+byte "create_campaign"
+==
+bnz main_l9
+txna ApplicationArgs 0
+byte "update_campaign"
+==
+bnz main_l8
+txna ApplicationArgs 0
+byte "cancel_campaign"
+==
+bnz main_l7
+txna ApplicationArgs 0
+byte "upload_creative"
+==
+bnz main_l6
+err
+main_l6:
+txna ApplicationArgs 1
+log
+int 1
+return
+main_l7:
+txn ApplicationID
+byte "campaign_owner"
+int 0
+app_local_put
+txn ApplicationID
+byte "campaign_id"
+int 0
+app_local_put
+int 1
+return
+main_l8:
+txn ApplicationID
+byte "campaign_owner"
+txna ApplicationArgs 1
+app_local_put
+txn ApplicationID
+byte "campaign_id"
+txna ApplicationArgs 2
+btoi
+app_local_put
+int 1
+return
+main_l9:
+int 0
+byte "campaign_counter"
+int 0
+byte "campaign_counter"
+app_local_get
+int 1
++
+app_local_put
+txn ApplicationID
+byte "campaign_owner"
+txna ApplicationArgs 1
+app_local_put
+txn ApplicationID
+byte "campaign_id"
+txna ApplicationArgs 2
+btoi
+app_local_put
+int 1
+return
+main_l10:
+int 0
+byte "campaign_owner"
+int 0
+app_local_put
+int 0
+byte "campaign_id"
+int 0
+app_local_put
+int 0
+byte "campaign_counter"
+int 0
+app_local_put
+int 1
+return

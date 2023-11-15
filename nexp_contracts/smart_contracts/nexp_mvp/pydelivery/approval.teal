@@ -1,0 +1,32 @@
+#pragma version 5
+txn ApplicationID
+int 0
+==
+bnz main_l6
+txn OnCompletion
+int NoOp
+==
+bnz main_l3
+err
+main_l3:
+byte "ad_slots"
+app_global_get
+store 0
+load 0
+int 0
+==
+bnz main_l5
+int 0
+return
+main_l5:
+byte "ad_slots"
+int 1
+app_global_put
+int 1
+return
+main_l6:
+byte "ad_slots"
+int 0
+app_global_put
+int 1
+return

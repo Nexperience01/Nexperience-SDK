@@ -1,0 +1,22 @@
+#pragma version 5
+txn ApplicationID
+int 0
+==
+bnz main_l4
+txna ApplicationArgs 0
+byte "set_privacy_settings"
+==
+bnz main_l3
+err
+main_l3:
+txn Sender
+byte "privacy_settings_"
+txn Sender
+concat
+txna ApplicationArgs 0
+app_local_put
+int 1
+return
+main_l4:
+int 1
+return
