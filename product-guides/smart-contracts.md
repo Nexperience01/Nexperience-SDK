@@ -1,6 +1,6 @@
 ---
 cover: ../.gitbook/assets/NEXperience Pitch Deck (4) (1).png
-coverY: 53.89147286821705
+coverY: 129.2580287929125
 ---
 
 # 📎 Smart Contracts
