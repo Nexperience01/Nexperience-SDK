@@ -9,7 +9,13 @@ coverY: 129.2580287929125
 
 <summary>Advertiser contract</summary>
 
-Contract deployed with transaction ID: QVLCGPZIZHUOU6LI3FAZ6QTFR53MSJN46XYTIV2HXCUEPJVUSDHQ TXID: QVLCGPZIZHUOU6LI3FAZ6QTFR53MSJN46XYTIV2HXCUEPJVUSDHQ Result confirmed in round: 34598075&#x20;
+* Functions: registerAdvertiser, updateAdvertiser, deactivateAdvertiser
+* Data Structures: Local state for each advertiser with details
+* Logic: Registration, updating, and deactivation of advertiser accounts
+* API Endpoints: POST /advertisers, PUT /advertisers/{advertiserId}, DELETE /advertisers/{advertiserId}
+* Interactions: Advertisers interact with this contract to manage their accounts on the NEXperience platform.
+
+Contract deployed with transaction ID: QVLCGPZIZHUOU6LI3FAZ6QTFR53MSJN46XYTIV2HXCUEPJVUSDHQ TXID: QVLCGPZIZHUOU6LI3FAZ6QTFR53MSJN46XYTIV2HXCUEPJVUSDHQ Result confirmed in the round: 34598075&#x20;
 
 [Testnet Link](https://testnet.algoexplorer.io/tx/QVLCGPZIZHUOU6LI3FAZ6QTFR53MSJN46XYTIV2HXCUEPJVUSDHQ)
 
