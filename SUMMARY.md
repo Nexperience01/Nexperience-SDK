@@ -14,13 +14,8 @@
 * [📪 NEXperience SDK](product-guides/nexperience-sdk.md)
 * [📎 Smart Contracts](product-guides/smart-contracts.md)
 
-## Fundamentals
-
-* [🛠 Getting set up](fundamentals/getting-set-up/README.md)
-  * [📝 Setting permissions](fundamentals/getting-set-up/setting-permissions.md)
-  * [🧑 Inviting Members](fundamentals/getting-set-up/inviting-members.md)
-
 ## Use Cases
 
-* [🎨 For Designers](use-cases/for-designers.md)
-* [🖥 For Developers](use-cases/for-developers.md)
+* [🎨 Advertisers](use-cases/for-designers.md)
+* [🖥 DApp Owners](use-cases/for-developers.md)
+* [🦹 Consumers](use-cases/consumers.md)
