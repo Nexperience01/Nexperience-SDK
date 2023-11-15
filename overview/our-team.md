@@ -8,7 +8,7 @@
 
 **LinkedIn:**
 
-**Email:**
+**Email: puneetsinghsigns@gmail.com**
 
 ## <mark style="color:purple;">Mokshita Vashisht</mark>
 
@@ -16,7 +16,7 @@
 
 **LinkedIn:**
 
-**Email:**
+**Email: mokshita.vashisht@gmail.com**
 
 ## <mark style="color:purple;">Sarthak Jain</mark>
 
