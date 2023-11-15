@@ -28,3 +28,12 @@ Embark on this transformative journey with NEXperience and become a trailblazer 
 [our-features.md](overview/our-features.md)
 {% endcontent-ref %}
 
+
+
+{% content-ref url="overview/why-nexperience.md" %}
+[why-nexperience.md](overview/why-nexperience.md)
+{% endcontent-ref %}
+
+{% content-ref url="overview/our-team.md" %}
+[our-team.md](overview/our-team.md)
+{% endcontent-ref %}
