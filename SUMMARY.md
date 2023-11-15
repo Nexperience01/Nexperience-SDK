@@ -14,8 +14,8 @@
 * [📪 NEXperience SDK](product-guides/nexperience-sdk.md)
 * [📎 Smart Contracts](product-guides/smart-contracts.md)
 
-## Use Cases
+## personas
 
-* [🎨 Advertisers](use-cases/for-designers.md)
-* [🖥 DApp Owners](use-cases/for-developers.md)
-* [🦹 Consumers](use-cases/consumers.md)
+* [🎨 Advertisers](personas/for-designers.md)
+* [🖥 DApp Owners](personas/for-developers.md)
+* [🦹 Consumers](personas/consumers.md)

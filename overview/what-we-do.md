@@ -5,8 +5,8 @@ coverY: 135.672203765227
 
 # 💡 What we do
 
-## Video overview
+## Product Pitch Deck
 
-Got 2 minutes? Check out a video overview of our product:
 
-{% embed url="https://www.loom.com/embed/3bfa83acc9fd41b7b98b803ba9197d90" %}
+
+## Demo Link
