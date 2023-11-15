@@ -5,12 +5,14 @@
 ## Overview
 
 * [💡 What we do](overview/what-we-do.md)
+* [❓ Why NEXperience](overview/why-nexperience.md)
 * [✨ Our Features](overview/our-features.md)
+* [👬 Our Team](overview/our-team.md)
 
 ## Product Guides
 
-* [📪 Making a post](product-guides/making-a-post.md)
-* [📎 Understanding Projects](product-guides/understanding-projects.md)
+* [📪 NEXperience SDK](product-guides/nexperience-sdk.md)
+* [📎 Smart Contracts](product-guides/smart-contracts.md)
 
 ## Fundamentals
 
